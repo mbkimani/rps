@@ -22,6 +22,10 @@ Play game agianst Computer. Player vs Computer
 
 */
 
+let playButton = document.querySelector("button");
+
+playButton.addEventListener("click", () => console.log(playGame()));
+
 function computerPlay() {
   //random number generation
   let choice = Math.round(Math.random() * 2);
