@@ -1,0 +1,16 @@
+.buttons {
+    display: flex;
+    margin: 10px;
+}
+
+.buttons div{
+    margin: 10px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
